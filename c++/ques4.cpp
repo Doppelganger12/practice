@@ -16,14 +16,16 @@
 using namespace std;
 void searchIn(int arr[],int start,int size,int search)
   { if(start==size)
+     return;
+    int mid=(size+start)/2;
+    if(arr[mid]==search)
     {
       if(search==arr[start])
           {cout<<start+1;
             return;
           }
-      return;
+
     }
-    int mid=(size+start)/2;
     if(arr[start]<arr[mid])
     {
       // if(arr[mid]==search)
