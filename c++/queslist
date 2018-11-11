@@ -1,2 +1,4 @@
 ques1: Maximium the elements with a[i+1] > a[i] in array possible
 ques2: Program for array rotation
+ques3: Reversal algorithm for array rotation
+ques4: binary Search an element in a sorted and rotated array
