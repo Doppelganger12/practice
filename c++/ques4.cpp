@@ -15,8 +15,7 @@
 #define NINF INT_MIN
 using namespace std;
 void searchIn(int arr[],int start,int size,int search)
-  { if(start==size)
-     return;
+  {
     int mid=(size+start)/2;
     if(arr[mid]==search)
     {
@@ -26,6 +25,8 @@ void searchIn(int arr[],int start,int size,int search)
           }
 
     }
+    if(start==size)
+       return;
     if(arr[start]<arr[mid])
     {
       // if(arr[mid]==search)
