@@ -3,3 +3,5 @@ ques2: Program for array rotation
 ques3: Reversal algorithm for array rotation
 ques4: binary Search an element in a sorted and rotated array
 ques5:Given a sorted and rotated array, find if there is a pair with a given sum in O(N)
+ques6:Find maximum value of Sum( i*arr[i]) with only rotations on given array allowed
+
